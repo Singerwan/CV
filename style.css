@@ -381,6 +381,14 @@ article .icon {
 }
 
 /* CONTACT */
+.contact-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 2rem;
+  box-sizing: border-box;
+}
 
 #contact {
   display: flex;
@@ -391,7 +399,7 @@ article .icon {
 
 .contact-info-upper-container {
   display: flex;
-  justify-content: center;
+  align-content: left;
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
@@ -401,9 +409,13 @@ article .icon {
 }
 
 .contact-info-container {
+  width: 100%;
+  max-width: 500px; /* Ensures it doesn't get too wide on large screens */
+  padding: 5vw;    /* Padding scales smoothly with browser zoom/width */
+  border-radius: 10px;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: left;
+  justify-content: left;
   gap: 0.5rem;
   margin: 1rem;
 }
@@ -430,3 +442,38 @@ footer {
 footer p {
   text-align: center;
 }
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f7fa;
+    color: #333;
+    padding: 40px;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    margin-bottom: 40px;
+}
+
+header h1 {
+    font-size: 2.8rem;
+    color: #2be459;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
