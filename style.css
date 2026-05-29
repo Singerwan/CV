@@ -263,23 +263,23 @@ section {
 
 /* ABOUT SECTION */
 
-#about {
+#About {
   position: relative;
 }
 
-.about-containers {
+.About-containers {
   gap: 2rem;
   margin-bottom: 2rem;
   margin-top: 2rem;
 }
 
-.about-details-container {
+.About-details-container {
   justify-content: center;
   flex-direction: column;
 }
 
-.about-containers,
-.about-details-container {
+.About-containers,
+.About-details-container {
   display: flex;
 }
 
@@ -314,20 +314,20 @@ section {
   margin: auto 0;
 }
 
-/* EXPERIENCE SECTION */
+/* Skills SECTION */
 
-#experience {
+#Skills {
   position: relative;
 }
 
-.experience-sub-title {
+.Skills-sub-title {
   color: rgb(85, 85, 85);
   font-weight: 600;
   font-size: 1.75rem;
   margin-bottom: 2rem;
 }
 
-.experience-details-container {
+.Skills-details-container {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -353,9 +353,9 @@ article .icon {
   cursor: default;
 }
 
-/* PROJECTS SECTION */
+/* Achievements SECTION */
 
-#projects {
+#Achievements {
   position: relative;
 }
 
@@ -364,18 +364,18 @@ article .icon {
   background: rgb(250, 250, 250);
 }
 
-.project-img {
+.Achievements-img {
   border-radius: 2rem;
   width: 90%;
   height: 90%;
 }
 
-.project-title {
+.Achievements-title {
   margin: 1rem;
   color: black;
 }
 
-.project-btn {
+.Achievements-btn {
   color: black;
   border-color: rgb(163, 163, 163);
 }
