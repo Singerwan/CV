@@ -303,6 +303,15 @@ section {
   text-align: center;
 }
 
+.details-containerach {
+  padding: 1.5rem;
+  flex: 1;
+  background: white;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  text-align: left;
+}
 .section-container {
   gap: 4rem;
   height: 80%;
@@ -312,6 +321,15 @@ section {
   height: 400px;
   width: 400px;
   margin: auto 0;
+}
+
+
+.section__pic-containerportrait {
+  margin: auto 0;
+  display: flex;
+  align-content: auto;
+  background: (250, 250, 250);
+  padding: 0.1rem;
 }
 
 /* Skills SECTION */
@@ -400,18 +418,18 @@ article .icon {
 .contact-info-upper-container {
   display: flex;
   align-content: left;
-  border-radius: 2rem;
+  border-radius: 1rem;
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
   background: (250, 250, 250);
-  margin: 2rem auto;
-  padding: 0.5rem;
+  margin: 1rem auto;
+  padding: 0.1rem;
 }
 
 .contact-info-container {
   width: 100%;
   max-width: 500px; /* Ensures it doesn't get too wide on large screens */
-  padding: 5vw;    /* Padding scales smoothly with browser zoom/width */
+  padding: 1vw;    /* Padding scales smoothly with browser zoom/width */
   border-radius: 10px;
   display: flex;
   align-items: left;
